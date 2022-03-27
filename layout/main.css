@@ -1,0 +1,41 @@
+
+#wrapper{
+    max-width: 960px;
+    margin: auto;
+}
+
+#header{
+    background: pink;
+    text-align: center;
+    padding: 5px;
+}
+#footer{
+    background: gray;
+    padding: 5px;
+    clear: both;
+}
+#wp-content{
+    display: flex;
+    min-height: 600px;
+}
+
+#content{
+    flex-basis: 80%;
+}
+#sidebar{
+    flex-basis: 20%;
+    background: floralwhite;
+    padding: 10px 15px;
+    float: left;
+}
+.list-course{
+    padding-left: 0px;
+    list-style: none;
+}
+
+
+
+
+
+
+

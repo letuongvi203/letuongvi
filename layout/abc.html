@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout</title>
+</head>
+<style>
+    #wrapper{
+        overflow: auto;
+        max-width: 1200px;
+        margin: auto;
+    }
+    #header{
+        width: 1200px;
+        background:black;
+        margin: 0 auto;
+        height: 60px;
+    }
+    #header a{
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #menu img{
+        margin: 5px auto;
+        width: 1200px;
+        height: 400px;
+    }
+    #menu a{
+        text-decoration: none;
+    }
+    #chung{
+        overflow:auto;
+    }
+    #left{
+        width: 200px;
+        color: black;
+        float: left;
+       }
+    #left ul li{
+        list-style-type: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #content{
+        width: 100px;
+        height: 500px;
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows:150px 150px;
+        grid-gap: 60px;
+        float: left;
+    }
+    #item img{
+        width: 300px;
+        height: 150px;
+        border-radius: 3px;
+    }
+    #footer{
+        max-width: 1200px;
+        background-color: black;
+        height: 50px;
+        clear: both;
+        text-align: center;
+        color: aliceblue;
+        font-size: 25px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .change{
+       max-width: 80px;
+    }
+    #header ul{
+       list-style: none;
+    }
+    #header ul li{
+       display: inline-block;
+       padding: 15px;
+    }
+    #header ul li a:hover{
+       text-decoration: none;
+       font-size: 20px;
+       font-weight: bold;
+       color: #4CAF50;
+   }
+   #left h1{
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .button {
+  border: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: right;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+#item h5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+</style>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <button class="button button1">Đăng kí</button>
+        <ul>
+    <li>
+        <a href="">
+            <img src="" class="change">
+        </a>
+    </li>
+    <li>
+        <a href="">
+Trang chủ
+        </a>
+    </li>
+    <li>
+        <a href="">
+Thực đơn
+        </a>
+    </li>
+    <li>
+        <a href="">
+Về chúng tôi
+        </a>
+    </li>
+    <li>
+        <a href="abc1.html">
+Công thức
+        </a>
+    </li>
+</ul>
+        </div>
+        <div id="menu"> 
+            <a href="" >
+                <img src="Special Food Presentation (1).png">
+            </a>
+        </div>
+        <div id="chung">
+        <div id="left">
+                <ul>
+                    <h1>Menu</h1>
+                    <li>Bánh Xèo (1)</li>
+                    <li>Cơm Hến (2)</li>
+                    <li>Phở Hà Nội (3)</li>
+                    <li>Bánh Lọc (4)</li>
+                    <li>Bánh mì (5)</li>
+                </ul>
+        </div>
+        <div id="content">
+            <div id="item">
+                <img src="cach-lam-com-hen-thom-ngom-kho-cuong-chuan-vi-nguoi-hue-6.jpg">
+                <h5>
+                Cơm hến >>
+                Chuẩn bị: 15min | Nấu chín: 5min
+            </h5>
+            </div>
+            <div id="item">
+                <img src="dac-trung-mon-hue-(1).jpg">
+                <h5>Bánh xèo  >>
+                    Chuẩn bị: 15min | Nấu chín: 5min</h5>
+           </div>
+           <div id="item">
+                 <img src="qiongru-205421015403-cac-loai-banh-thong-dung.jpg">
+                 <h5>Bánh lọc  >>
+                    Chuẩn bị: 15min | Nấu chín: 5min</h5>
+           </div>
+           <div id="item">
+                 <img src="am-thuc-ha-noi.jpg">
+                 <h5>Phở Hà Nội  >>
+                    Chuẩn bị: 15min | Nấu chín: 5min</h5>
+           </div>
+           <div id="item">
+               <img src="banhmi.jpg">
+                 <h5>Bánh mì  >>
+                    Chuẩn bị: 15min | Nấu chín: 5min</h5>
+           </div>
+        </div>
+    </div>
+        <div id="footer" >
+            &copy;ẨM THỰC 2022
+        </div>
+    </div>
+</body>
+</html>

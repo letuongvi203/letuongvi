@@ -1,0 +1,111 @@
+.change{
+   width: 40px;
+    height: auto;
+    padding-right: 40px;
+}
+.changee{
+    max-width: 30px;
+    height: auto;
+}
+.changeee{
+    max-width: 20px;
+    height: auto;
+}
+.chang{
+    max-width: 20px;
+    height: auto;
+}
+.chan{
+    max-width: 20px;
+    height: auto;
+}
+.cha{
+    max-width: 20px;
+    height: auto;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255,186, 0);
+}
+.up{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+}
+.up ul{
+    list-style: none;
+    margin-top: 0px;
+}
+.up ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+.down{
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.search{
+    height: 45px;
+    width: 550px;
+    background-color: white;
+    margin-left: 60px;
+    border-radius: 5px; 
+}
+.search input{
+    width: 480px;
+    height: 43px;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.search button{
+    border: 0px;
+}
+.search button img{
+    width: 20px;
+    height: auto;
+    vertical-align: middle;
+}
+.content{
+    width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows:150px 150px;
+    grid-gap:10px;
+}
+.item img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.item1{
+    grid-column-start:1 ; 
+    grid-column-end:3 ;
+}
+.item1 img{
+    width: 310px;
+}
+.item2{
+    grid-column-start:3 ; 
+    grid-column-end:6 ;
+}
+.item2 img{
+    width: 310px;
+}
